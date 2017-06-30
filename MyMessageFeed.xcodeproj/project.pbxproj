@@ -7,14 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3167BD81EFC673C0098B28C /* MessagesFeedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3167BD71EFC673C0098B28C /* MessagesFeedViewController.m */; };
+		B3167BDA1EFC8A770098B28C /* urls.plist in Resources */ = {isa = PBXBuildFile; fileRef = B3167BD91EFC8A770098B28C /* urls.plist */; };
+		B3167BE11EFC90470098B28C /* UrlManager.m in Sources */ = {isa = PBXBuildFile; fileRef = B3167BE01EFC90470098B28C /* UrlManager.m */; };
+		B3DAFED41EFC3DFE001014C7 /* WriteMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3DAFED31EFC3DFE001014C7 /* WriteMessageViewController.m */; };
 		B3E2DF741EDF80A9004F70B2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E2DF731EDF80A9004F70B2 /* main.m */; };
 		B3E2DF771EDF80A9004F70B2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E2DF761EDF80A9004F70B2 /* AppDelegate.m */; };
-		B3E2DF7A1EDF80A9004F70B2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E2DF791EDF80A9004F70B2 /* ViewController.m */; };
 		B3E2DF7D1EDF80A9004F70B2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E2DF7B1EDF80A9004F70B2 /* Main.storyboard */; };
 		B3E2DF7F1EDF80A9004F70B2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3E2DF7E1EDF80A9004F70B2 /* Assets.xcassets */; };
 		B3E2DF821EDF80A9004F70B2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3E2DF801EDF80A9004F70B2 /* LaunchScreen.storyboard */; };
 		B3E2DF8D1EDF80A9004F70B2 /* MyMessageFeedTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E2DF8C1EDF80A9004F70B2 /* MyMessageFeedTests.m */; };
 		B3E2DF981EDF80A9004F70B2 /* MyMessageFeedUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E2DF971EDF80A9004F70B2 /* MyMessageFeedUITests.m */; };
+		B3F520D61F05BAC0004103EE /* MessageCell.m in Sources */ = {isa = PBXBuildFile; fileRef = B3F520D51F05BAC0004103EE /* MessageCell.m */; };
+		ED5C12AE82A375FD375D9F8C /* libPods-MyMessageFeed.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DD23F8D65844DB96A06CB670 /* libPods-MyMessageFeed.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,12 +40,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		72017A30FCBBD90664E3D710 /* Pods-MyMessageFeed.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMessageFeed.debug.xcconfig"; path = "Pods/Target Support Files/Pods-MyMessageFeed/Pods-MyMessageFeed.debug.xcconfig"; sourceTree = "<group>"; };
+		B3167BD61EFC673C0098B28C /* MessagesFeedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessagesFeedViewController.h; sourceTree = "<group>"; };
+		B3167BD71EFC673C0098B28C /* MessagesFeedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessagesFeedViewController.m; sourceTree = "<group>"; };
+		B3167BD91EFC8A770098B28C /* urls.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = urls.plist; sourceTree = "<group>"; };
+		B3167BDF1EFC90470098B28C /* UrlManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UrlManager.h; sourceTree = "<group>"; };
+		B3167BE01EFC90470098B28C /* UrlManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UrlManager.m; sourceTree = "<group>"; };
+		B3DAFED21EFC3DFE001014C7 /* WriteMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WriteMessageViewController.h; sourceTree = "<group>"; };
+		B3DAFED31EFC3DFE001014C7 /* WriteMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WriteMessageViewController.m; sourceTree = "<group>"; };
 		B3E2DF6F1EDF80A9004F70B2 /* MyMessageFeed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyMessageFeed.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E2DF731EDF80A9004F70B2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3E2DF751EDF80A9004F70B2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		B3E2DF761EDF80A9004F70B2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		B3E2DF781EDF80A9004F70B2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		B3E2DF791EDF80A9004F70B2 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		B3E2DF7C1EDF80A9004F70B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B3E2DF7E1EDF80A9004F70B2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B3E2DF811EDF80A9004F70B2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +62,10 @@
 		B3E2DF931EDF80A9004F70B2 /* MyMessageFeedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyMessageFeedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E2DF971EDF80A9004F70B2 /* MyMessageFeedUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyMessageFeedUITests.m; sourceTree = "<group>"; };
 		B3E2DF991EDF80A9004F70B2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B3F520D41F05BAC0004103EE /* MessageCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageCell.h; sourceTree = "<group>"; };
+		B3F520D51F05BAC0004103EE /* MessageCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageCell.m; sourceTree = "<group>"; };
+		D3977D2EF75A2BC4A4CC05DF /* Pods-MyMessageFeed.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyMessageFeed.release.xcconfig"; path = "Pods/Target Support Files/Pods-MyMessageFeed/Pods-MyMessageFeed.release.xcconfig"; sourceTree = "<group>"; };
+		DD23F8D65844DB96A06CB670 /* libPods-MyMessageFeed.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MyMessageFeed.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +73,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED5C12AE82A375FD375D9F8C /* libPods-MyMessageFeed.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +94,52 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6D5212526676E031B4DD4F0E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				72017A30FCBBD90664E3D710 /* Pods-MyMessageFeed.debug.xcconfig */,
+				D3977D2EF75A2BC4A4CC05DF /* Pods-MyMessageFeed.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		71E855258E0152A5032AB03B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DD23F8D65844DB96A06CB670 /* libPods-MyMessageFeed.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B359F7221F05811800AE10B4 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		B359F7231F05812400AE10B4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B3E2DF801EDF80A9004F70B2 /* LaunchScreen.storyboard */,
+				B3E2DF7B1EDF80A9004F70B2 /* Main.storyboard */,
+				B3F520D41F05BAC0004103EE /* MessageCell.h */,
+				B3F520D51F05BAC0004103EE /* MessageCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		B359F7241F05812A00AE10B4 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				B3167BD61EFC673C0098B28C /* MessagesFeedViewController.h */,
+				B3167BD71EFC673C0098B28C /* MessagesFeedViewController.m */,
+				B3DAFED21EFC3DFE001014C7 /* WriteMessageViewController.h */,
+				B3DAFED31EFC3DFE001014C7 /* WriteMessageViewController.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
 		B3E2DF661EDF80A9004F70B2 = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +147,8 @@
 				B3E2DF8B1EDF80A9004F70B2 /* MyMessageFeedTests */,
 				B3E2DF961EDF80A9004F70B2 /* MyMessageFeedUITests */,
 				B3E2DF701EDF80A9004F70B2 /* Products */,
+				6D5212526676E031B4DD4F0E /* Pods */,
+				71E855258E0152A5032AB03B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,14 +165,9 @@
 		B3E2DF711EDF80A9004F70B2 /* MyMessageFeed */ = {
 			isa = PBXGroup;
 			children = (
-				B3E2DF751EDF80A9004F70B2 /* AppDelegate.h */,
-				B3E2DF761EDF80A9004F70B2 /* AppDelegate.m */,
-				B3E2DF781EDF80A9004F70B2 /* ViewController.h */,
-				B3E2DF791EDF80A9004F70B2 /* ViewController.m */,
-				B3E2DF7B1EDF80A9004F70B2 /* Main.storyboard */,
-				B3E2DF7E1EDF80A9004F70B2 /* Assets.xcassets */,
-				B3E2DF801EDF80A9004F70B2 /* LaunchScreen.storyboard */,
-				B3E2DF831EDF80A9004F70B2 /* Info.plist */,
+				B359F7241F05812A00AE10B4 /* Controllers */,
+				B359F7231F05812400AE10B4 /* Views */,
+				B359F7221F05811800AE10B4 /* Models */,
 				B3E2DF721EDF80A9004F70B2 /* Supporting Files */,
 			);
 			path = MyMessageFeed;
@@ -117,6 +176,13 @@
 		B3E2DF721EDF80A9004F70B2 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				B3E2DF751EDF80A9004F70B2 /* AppDelegate.h */,
+				B3E2DF761EDF80A9004F70B2 /* AppDelegate.m */,
+				B3E2DF7E1EDF80A9004F70B2 /* Assets.xcassets */,
+				B3E2DF831EDF80A9004F70B2 /* Info.plist */,
+				B3167BDF1EFC90470098B28C /* UrlManager.h */,
+				B3167BE01EFC90470098B28C /* UrlManager.m */,
+				B3167BD91EFC8A770098B28C /* urls.plist */,
 				B3E2DF731EDF80A9004F70B2 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -147,9 +213,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = B3E2DF9C1EDF80A9004F70B2 /* Build configuration list for PBXNativeTarget "MyMessageFeed" */;
 			buildPhases = (
+				EE0FAF0A8AE403E37428F740 /* [CP] Check Pods Manifest.lock */,
 				B3E2DF6B1EDF80A9004F70B2 /* Sources */,
 				B3E2DF6C1EDF80A9004F70B2 /* Frameworks */,
 				B3E2DF6D1EDF80A9004F70B2 /* Resources */,
+				9ABB556509D0EA768A64615A /* [CP] Embed Pods Frameworks */,
+				9DD50A07E9D31BC0BB1C98F8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -248,6 +317,7 @@
 			files = (
 				B3E2DF821EDF80A9004F70B2 /* LaunchScreen.storyboard in Resources */,
 				B3E2DF7F1EDF80A9004F70B2 /* Assets.xcassets in Resources */,
+				B3167BDA1EFC8A770098B28C /* urls.plist in Resources */,
 				B3E2DF7D1EDF80A9004F70B2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -268,13 +338,64 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9ABB556509D0EA768A64615A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMessageFeed/Pods-MyMessageFeed-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9DD50A07E9D31BC0BB1C98F8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-MyMessageFeed/Pods-MyMessageFeed-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EE0FAF0A8AE403E37428F740 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		B3E2DF6B1EDF80A9004F70B2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B3E2DF7A1EDF80A9004F70B2 /* ViewController.m in Sources */,
 				B3E2DF771EDF80A9004F70B2 /* AppDelegate.m in Sources */,
+				B3DAFED41EFC3DFE001014C7 /* WriteMessageViewController.m in Sources */,
+				B3167BE11EFC90470098B28C /* UrlManager.m in Sources */,
+				B3F520D61F05BAC0004103EE /* MessageCell.m in Sources */,
+				B3167BD81EFC673C0098B28C /* MessagesFeedViewController.m in Sources */,
 				B3E2DF741EDF80A9004F70B2 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -420,6 +541,7 @@
 		};
 		B3E2DF9D1EDF80A9004F70B2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 72017A30FCBBD90664E3D710 /* Pods-MyMessageFeed.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyMessageFeed/Info.plist;
@@ -431,6 +553,7 @@
 		};
 		B3E2DF9E1EDF80A9004F70B2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3977D2EF75A2BC4A4CC05DF /* Pods-MyMessageFeed.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MyMessageFeed/Info.plist;
@@ -505,6 +628,7 @@
 				B3E2DF9E1EDF80A9004F70B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3E2DF9F1EDF80A9004F70B2 /* Build configuration list for PBXNativeTarget "MyMessageFeedTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +637,7 @@
 				B3E2DFA11EDF80A9004F70B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B3E2DFA21EDF80A9004F70B2 /* Build configuration list for PBXNativeTarget "MyMessageFeedUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +646,7 @@
 				B3E2DFA41EDF80A9004F70B2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
