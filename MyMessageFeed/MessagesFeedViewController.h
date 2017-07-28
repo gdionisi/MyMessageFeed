@@ -11,6 +11,6 @@
 @interface MessagesFeedViewController : UITableViewController 
 
 - (IBAction)unwindToMessagesFeed:(UIStoryboardSegue *)segue;
-- (NSArray *)getAllMessages;
+- (void)getAllMessages;
 
 @end

@@ -36,7 +36,7 @@
     // Dispose of any resources that can be recreated.
 }
 
-- (NSArray *)getAllMessages {
+- (void)getAllMessages {
     
     _messages = [[NSArray alloc] init];
     
@@ -63,8 +63,6 @@
              NSLog(@"failed to get the messages");
          }
      ];
-    
-    return _messages;
 }
 
 #pragma mark - Table view data source
